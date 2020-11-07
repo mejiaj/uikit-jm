@@ -26,13 +26,13 @@ $pl-color-state-inreview: #C7A118;
 $pl-color-state-deprecated: #B00B02;
 
 // Font Family
-$pl-font: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$pl-font: family("sans");
 
 // Font sizes
-$pl-font-size-sm: 0.7rem;
-$pl-font-size-sm-2: 0.85rem;
-$pl-font-size-norm: 1rem;
-$pl-font-size-large: 1.2rem;
+$pl-font-size-sm: size("sans", "xs");
+$pl-font-size-sm-2: size("sans", "sm");
+$pl-font-size-norm: size("sans", "md");
+$pl-font-size-large: size("sans", "lg");
 
 // Spacing & Padding
 $pl-space: 1rem;
