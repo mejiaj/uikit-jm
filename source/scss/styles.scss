@@ -2,3 +2,12 @@
 @import 'packages/global';
 @import 'packages/layout-grid';
 @import 'packages/typography';
+
+.pl-c-header {
+  background-color: color("blue-50v");
+  color: color("white");
+
+  a {
+    color: inherit;
+  }
+}
