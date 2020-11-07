@@ -25,8 +25,8 @@
 /*------------------------------------*\
     #ABSTRACTS
 \*------------------------------------*/
-@import "scss/abstracts/variables";
-@import "scss/abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
 
 
@@ -35,8 +35,8 @@
 /*------------------------------------*\
     #BASE
 \*------------------------------------*/
-@import "scss/base/reset";
-@import "scss/base/body";
+@import "base/reset";
+@import "base/body";
 
 
 
@@ -49,32 +49,32 @@
 /**
  * Pattern Lab Header
  */
-@import "scss/components/header";
-@import "scss/components/logo";
-@import "scss/components/navigation";
-@import "scss/components/ish-sizing";
-@import "scss/components/controls";
-@import "scss/components/tools";
+@import "components/header";
+@import "components/logo";
+@import "components/navigation";
+@import "components/ish-sizing";
+@import "components/controls";
+@import "components/tools";
 
 /**
  * Viewport
  */
-@import "scss/components/viewport";
+@import "components/viewport";
 
 /**
  * Pattern Styles
  */
-@import "scss/components/pattern";
-@import "scss/components/pattern-category";
-@import "scss/components/pattern-info";
-@import "scss/components/pattern-states";
-@import "scss/components/pattern-lineage";
-@import "scss/components/breadcrumbs";
-@import "scss/components/tabs";
-@import "scss/components/tools";
-@import "scss/components/annotations";
-@import "scss/components/modal";
-@import "scss/components/text-passage";
+@import "components/pattern";
+@import "components/pattern-category";
+@import "components/pattern-info";
+@import "components/pattern-states";
+@import "components/pattern-lineage";
+@import "components/breadcrumbs";
+@import "components/tabs";
+@import "components/tools";
+@import "components/annotations";
+@import "components/modal";
+@import "components/text-passage";
 
 
 
@@ -83,7 +83,7 @@
 /*------------------------------------*\
     #UTILITIES
 \*------------------------------------*/
-@import "scss/utilities/visibility";
+@import "utilities/visibility";
 
 
 
@@ -92,8 +92,8 @@
 /*------------------------------------*\
     #VENDOR
 \*------------------------------------*/
-@import "scss/vendor/typeahead";
-@import "scss/vendor/prism";
+@import "vendor/typeahead";
+@import "vendor/prism";
 
 
 
@@ -102,6 +102,6 @@
 /*------------------------------------*\
     #THEMES
 \*------------------------------------*/
-@import "scss/themes/light-theme";
-@import "scss/themes/density-theme";
-@import "scss/themes/sidebar-theme";
+@import "themes/light-theme";
+@import "themes/density-theme";
+@import "themes/sidebar-theme";
