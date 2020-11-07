@@ -38,10 +38,10 @@ PATHS
 const PROJECT_SASS_SRC = "./source/scss";
 
 // Images destination
-const IMG_DEST = "./source/images";
+const IMG_DEST = "./dist/styleguide/images";
 
 // Fonts destination
-const FONTS_DEST = "./source/fonts";
+const FONTS_DEST = "./dist/styleguide/fonts";
 
 // Javascript destination
 const JS_DEST = "./source/js";
