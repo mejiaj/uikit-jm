@@ -8,15 +8,15 @@
 */
 
 // Colors
-$pl-color-white: #fff;
-$pl-color-gray-02: #fafafa;
-$pl-color-gray-07: #eee;
-$pl-color-gray-13: #ddd;
-$pl-color-gray-20: #ccc;
-$pl-color-gray-50: #808080;
-$pl-color-gray-70: #4d4c4c;
-$pl-color-gray-87: #222;
-$pl-color-black: #000;
+$pl-color-white: color("white");
+$pl-color-gray-02: color("gray-2");
+$pl-color-gray-07: color("gray-5");
+$pl-color-gray-13: color("gray-10");
+$pl-color-gray-20: color("gray-20");
+$pl-color-gray-50: color("gray-40");
+$pl-color-gray-70: color("gray-50");
+$pl-color-gray-87: color("gray-70");
+$pl-color-black: color("base-darkest");
 
 $pl-color-trans-white-25: rgba(255,255,255,0.25);
 
